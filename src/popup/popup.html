@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Animados da Página</title><link rel="stylesheet" href="popup.css"></head>
+<body><header><div><strong>Animados</strong><small id="domain">Analisando página…</small></div><button id="refresh" title="Atualizar análise" aria-label="Atualizar análise">↻</button></header>
+<main><div class="direct"><label for="directUrl">Baixar por link</label><div class="direct-row"><input id="directUrl" type="url" placeholder="Cole o link direto do GIF"><button id="downloadUrl" class="primary">Baixar</button></div></div><div class="toolbar"><input id="search" type="search" placeholder="Buscar por nome ou formato"><span id="count">0 itens</span></div><div class="actions"><button id="selectAll">Selecionar todos</button><button id="downloadSelected" class="primary" disabled>Baixar selecionados</button></div><div id="status" role="status">Analisando a página…</div><section id="results" aria-live="polite"></section></main>
+<script src="../utils/detector.js"></script><script src="popup.js"></script></body></html>

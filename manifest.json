@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Animados da Página",
+  "version": "1.0.0",
+  "description": "Encontre imagens animadas e vídeos curtos na página atual e baixe os arquivos acessíveis.",
+  "action": { "default_title": "Encontrar animações", "default_popup": "src/popup/popup.html" },
+  "background": { "service_worker": "src/background/service-worker.js" },
+  "permissions": ["activeTab", "scripting", "downloads", "contextMenus"]
+}
